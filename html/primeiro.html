@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/style.css">
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa fa-cutlery" aria-hidden="true" id="nav_logo"> Churrasco</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Reserve agora e saboreie o melhor churrasco feito por
+                    <span>especialista</span>
+                </h1>
+
+                <p class="description">
+                    Explore o delicioso mundo do churrasco com um especialista dedicado a transformar cada evento em uma experiência inesquecível
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="(19) 98407 - 5257" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        +55 19 98407-5257
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/send/?phone=5519984075257&text&type=phone_number&app_absent=0">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/elsonchurrasqueiro/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://mycollection.shop/elsonchurrasco">
+                        <img src="../images/bxl-shopify.png" alt="" srcset="">
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="banner">
+                <img src="../images/ELSON_BARBOSA_CHURRASQUERIO__1_-removebg.png" alt="">
+            </div>
+        </section>
+            
+        <section id="menu">
+            <h2 class="section-title">Menu</h2>
+            <h3 class="section-subtitle">Destaques do cardápio</h3>
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="../images/img projeto.elson.jpg" class="dish-image" alt="">
+
+                    
+                    
+                    <h3 class="dish-title">
+                        Churrasco Completo
+                    </h3>
+                    <a href="segundo.html">Segunda Página</a>
+                    <span class="dish-description">
+                        Cortes de Carne, Acompanhamentos, Utensílios e valores no link acima
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4></h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="../images/img.acompanhamento.jpg" alt="Image" height="408px" width="410px">
+                    <h3 class="dish-title">
+                        Acompanhamentos de churrasco
+                    </h3>
+                    <a href="segundo.html">Segunda Página</a>
+                    <span class="dish-description">
+                        Valores e outras informações no link acima
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4></h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="../images/img.comidadeboteco.jpg" alt="Image" height="408px" width="410px">
+                    <h3 class="dish-title">
+                        Comida de boteco
+                    </h3>
+                    <a href="segundo.html">Segunda Página</a>
+                    <span class="dish-description">
+                        Porções, caldos, lanches, utensílios e valores no link acima
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4></h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="../images/img.feijoada.jpg" alt="Image" height="408px" width="410px">
+                    <h3 class="dish-title">
+                        Feijoada Completa
+                    </h3>
+                    <a href="segundo.html">Segunda Página</a>
+                    <span class="dish-description">
+                         Acompanhamentos, utensílios e valores no link acima
+                        
+                        
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i> 
+                    </button>
+                   
+                   
+                   
+                   
+                        </button>
+                    </div>
+                </div>
+            </div>
+          
+           
+                <section id="menu">
+                <h2 class="section-title">Cardápio</h2>
+                <h3 class="section-subtitle">Nossos pratos especiais</h3>
+                <div id="dishes">
+            
+            
+            
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="../images/salgadinhos-para-festa-infantil-paulovilela.jpg" alt="Image" height="408px" width="410px">
+                        
+                        <h3 class="dish-title">
+                            Festa Infantil
+                        </h3>
+                        <a href="segundo.html">Segunda Página</a>
+                        <span class="dish-description">
+                            Comidas, lanches, porção, Serviços, utensílios, valores e tempo de serviço no link acima
+                        </span>
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div class="dish-price">
+                            <h4></h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="../images/strogonoff-pratico-de-frango-e-arroz.jpeg"  alt="Image" height="408px" width="410px">
+                        <h3 class="dish-title">
+                            Strogonoff
+                        </h3>
+                        <a href="segundo.html">Segunda Página</a>
+                        <span class="dish-description">
+                            Acompanhamentos, utensílios, opções, serviços e valores no link acima
+                        </span>
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </section>
+
+    
+        <section id="testimonials">
+            <img src="../images/Snapinsta.app_426062068_1571766836995435_127348245899216485_n_1080.jpg" alt="Image" height="800px" width="900">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    Avaliações dos nossos clientes
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="../images/419814426_1770839526751893_5591767934678134012_n.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Cafu
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                               Evento com o Cafu, ex-jogador de futebol brasileiro
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="../images/Foto.jogador.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Dinei
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Evento com ex-atleta do Corinthians
+                               
+                            </p>
+                        </div>
+                    </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="" alt="">
+
+        <div id="footer_items">
+
+            <div class="social-media-buttons">
+                <a href="https://api.whatsapp.com/send/?phone=5519984075257&text&type=phone_number&app_absent=0">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/elsonchurrasqueiro/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://mycollection.shop/elsonchurrasco">
+                    <img src="../images/bxl-shopify.png" alt="">
+                </a>
+               
+            
+            </div>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
