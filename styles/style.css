@@ -25,26 +25,54 @@ img .icon{
         width: fit-content;
         }
 
-* {
-    font-family: 'Poppins', sans-serif;
+@media (max-widht: 450px) {
+    h1 {
+      color: #fe4938;
+    }
+    h2 {
+      color: #e9a209;
+    }
+  }
+  
+  @media (min-widht: 768px) and (max-widht: 1024px) {
+    h1 {
+      color: #f8d477;
+    }
+    h2 {
+      color: #fbd951;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    h1 {
+      color: #ffe100;
+    }
+    h2 {
+      color: #fe4938;
+    }
+  }
+  
+  .card-opções {
+    border-radius: 40px;
+  }
+  
+  * {
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-
-html {
+  }
+  
+  html {
     scroll-behavior: smooth;
-    
-}
-
-body {
+  }
+  
+  body {
     background-color: var(--color-primary-1);
-}
-
-section {
+  }
+  
+  section {
     padding: 28px 8%;
-}
 
 .btn-default {
     border: none;
