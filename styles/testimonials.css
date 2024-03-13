@@ -5,7 +5,10 @@
     justify-content: center;
     gap: 48px;
 }
-
+img .icon{
+    width: fit-content;
+    }
+    
 #testimonial_chef {
     width: 500px;
     height: auto;
